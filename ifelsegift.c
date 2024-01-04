@@ -1,35 +1,27 @@
 #include <stdio.h>
 
-int main()
-{
-  char math,science,pass;
-  
-  // printf("\nEnter subject name which you have been passed: ");
-   // scanf("\n%c", &subject);
+
+int main() {
+   int a ,b;
+   b=0;
+   printf ("Given the Number for Multiplication:\n");
+   scanf ("%d", &a);
    
-   printf("Result of math=");
-    scanf("\n%c", &math);
-     
-     printf("Result of science=");
-     scanf("\n%c", &science);
-   //scanf("%c", &pass);
+   printf ("The multiplication table of %d is\n",a);
+ for (int i =0; i < 10; i++)
+    { 
+       printf("%d x %d = %d\n",a, i+1, (i+1)*a);}
    
-  // printf("\nyou have entered %c to see your gift!");
+   
+//   for (int i=1; i<= 10; i++)
+//{
+  // b=b+a;
+   //printf ("%d x %d =%d\n",a, i, b); }
+
+      return 0;
+
+}
+
     
-  // if(math=pass,science=pass)
-//{   printf("\nyou have got 45 Rupya as your gift!");}
- 
-     if (math==pass)
-{   printf("\nyou have got 20 Rupya as your gift!");
+    
 
-}
-  else if (science==pass)
-{  printf("\nyou have got 15 Rupya as your gift!");
-
-}    
-   else {
-        printf ("\nyou have not got any gift!");
- }   
-   return 0;
-
-}
