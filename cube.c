@@ -7,7 +7,7 @@ int main()
     scanf ("%f",& side); 
     
      
-    Volume=side * side;
+    Volume=side * side * side;
     printf ("\n Volume of cube : %f",Volume);
     
     /* code */
